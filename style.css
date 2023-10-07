@@ -60,20 +60,41 @@ img {
   size: 100px;
 }
 
-.btn-1 {
-  border-color: aquamarine;
-  border-radius: 0;
-  background-color: white;
-  width: 25%;
-  height: 20%;
-  font-size: 23px;
-}
-.btn-2 {
-  border-color: aquamarine;
-  border-radius: 0;
-  background-color: aquamarine;
-  width: 25%;
-  height: 20%;
-  font-size: 23px;
+button {
+  border: none;
   color: white;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 30%;
+  height: 20%;
+}
+
+.btn-1 {
+  text-align: center;
+  color: black;
+  border: 2px solid aquamarine;
+  background-color: white;
+}
+
+.btn-2 {
+  text-align: center;
+  color: white;
+  background-color: aquamarine;
+  border: 2px solid white;
+}
+
+.row .col-4-1 .col-4-2 .col-4-3 {
+  display: flex;
+  grid: 2;
+  flex-direction: column;
+}
+
+table {
+  border: none;
+  background-color: aquamarine;
+  color: aquamarine;
+  border: 2px solid aquamarine;
+  width: 50px;
 }

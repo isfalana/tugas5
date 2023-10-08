@@ -1,11 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.button-contactus {
+  text-decoration: none;
+  color: white;
+}
 body {
   font-family: "DM Sans", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+html {
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -98,6 +106,7 @@ div p {
 }
 
 button {
+  cursor: pointer;
   border: none;
   color: white;
   font-size: 23px;
@@ -106,6 +115,11 @@ button {
   display: inline-block;
   width: 30%;
   height: 20%;
+  transition: all 500ms ease;
+}
+
+button:active {
+  background-color: rgb(87, 137, 120);
 }
 
 .btn-1 {
